@@ -66,10 +66,11 @@ h3, h2, h1{
     margin-left: auto;*/
     margin: 0 auto; /*igual podria ser 0 auto 0 auto*/
 }
-.nav-bag{
+.nav-bg{
     background-color: var(--secundario);
 }
-.navegacion-Principal{
+.navegacion-principal
+{
     display: flex;  /*Contenido flexible*/
     flex-direction: column; /*Contenido dividido por columnas*/
     /*El justify-content es para las filas (row) y aling-items es para columnas (column) */
@@ -79,20 +80,20 @@ h3, h2, h1{
     text-align: center; /*Alinear al centro*/
 
 }
-.navegacion-Principal a{
+.navegacion-principal a{
     padding: 1rem;
     text-decoration: none;
     color: var(--blanco);
 }
-.navegacion-Principal a:hover{
+.navegacion-principal a:hover{
     background-color: var(--primario);
     color: var(--oscuro);
 }
 @media (min-width: 768px) {
-    .navegacion-Principal{
+    .navegacion-principal{
         flex-direction: row;
         justify-content: space-between;
-        background-color: #0097a7;
+        background-color: #08bace;
     }
 }
 
